@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
   })
   .then(dbTagData => {
     if (!dbTagData) {
-      res.status(404)({ message: 'No Tag found with this id'});
+      res.status(404).json({ message: 'No Tag found with this id'});
       return;
     }
     res.json(dbTagData);
@@ -86,7 +86,7 @@ router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({
     where: {
-      id: req.body.params.id
+      id: req.params.id
     }
   })
   .then(dbTagData => {
