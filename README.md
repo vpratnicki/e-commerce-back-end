@@ -25,17 +25,19 @@ Once the required packages are installed (see section above) follow these steps 
 - Create an .env file and enter the database name, user and password. 
 - Use the schema.sql file in the db folder to create your database using MySQL shell commands.
 - Run 'npm run seed' to seed data to your database (in the package.json file, make sure "seed": "node seeds/index.js" is listed under scripts)
-- Run 'npm start' and test the API endpoints. View the videos below for a walkthrough now how to.
+- Run 'npm start' and test the API endpoints. View the videos below for a walkthroughs.
 
-### Walkthrough of GET, Get by id, PUT and DELETE for Category
+### [Walkthrough that demonstrates the functionality of the e-commerce back end](https://watch.screencastify.com/v/RTvIuSTKzEDCYMNxmbd0)
+
+### Walkthrough of GET, PUT, POST and DELETE for Category
 
 https://user-images.githubusercontent.com/18556546/197418966-0267de06-e237-4509-bc70-3180cf4270f4.mp4
 
-### Walkthrough of GET, Get by id, PUT and DELETE for Tag
+### Walkthrough of GET, PUT, POST and DELETE for Tag
 
 https://user-images.githubusercontent.com/18556546/197418944-9674ed2a-6bf2-43b9-8a4a-20f130daaf84.mp4
 
-### Walkthrough of GET, Get by id, PUT and DELETE for Product
+### Walkthrough of GET, PUT, POST and DELETE for Product
 
 https://user-images.githubusercontent.com/18556546/197418834-0421444e-cb03-47e5-a0d3-c51217c0f662.mp4
 
