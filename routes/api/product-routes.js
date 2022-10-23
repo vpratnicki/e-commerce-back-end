@@ -13,10 +13,6 @@ router.get('/', (req, res) => {
       {
         model: Category,
         attributes: ['category_name']
-      },
-      {
-        model: ProductTag,
-        attributes: ['tag_name']
       }
     ]
   })
