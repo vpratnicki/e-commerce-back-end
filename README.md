@@ -1,4 +1,4 @@
-# e-commerce-back-end
+# e-commerce back end using Object-Relational Mapping (ORM)
 
 ## Description
 
