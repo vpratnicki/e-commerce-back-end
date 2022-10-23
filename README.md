@@ -27,7 +27,7 @@ Once the required packages are installed (see section above) follow these steps 
 - Run 'npm run seed' to seed data to your database (in the package.json file, make sure "seed": "node seeds/index.js" is listed under scripts)
 - Run 'npm start' and test the API endpoints. View the videos below for a walkthroughs.
 
-### [Walkthrough that demonstrates the functionality of the e-commerce back end](https://watch.screencastify.com/v/RTvIuSTKzEDCYMNxmbd0)
+### [Walkthrough that demonstrates the functionality of the e-commerce back end »](https://watch.screencastify.com/v/RTvIuSTKzEDCYMNxmbd0)
 
 ### Walkthrough of GET, PUT, POST and DELETE for Category
 
